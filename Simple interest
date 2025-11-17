@@ -1,0 +1,10 @@
+include <stdio.h>
+int main()
+{
+    int p,t,r,si;
+    prinf("enter the value of p,t&r\n");
+    scanf("%d%d%d\n,&p,&t,&r”);
+    si=(p*t*r)/100;
+    printf("si=%d\n",si);
+    return 0;
+}
