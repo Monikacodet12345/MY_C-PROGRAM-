@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+ int name,age,location;
+  printf("name:Monika KR\n");
+  printf("age:18\n");
+  printf("location:tumkur\n");
+return 0;
+}
