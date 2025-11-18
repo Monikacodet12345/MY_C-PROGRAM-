@@ -1,0 +1,10 @@
+include <stdio.h>
+int jaibalaya(){
+    printf("monika"\n);
+    printf("vidyashree"\n);
+}
+int main() {
+ jaibalaya();
+}
+
+    
