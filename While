@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int n,flag=0,i=2;
+    printf("enter the value ofinteger\n");
+    while(i<=n/2)
+    {if (n%i=0)
+    {flag=1;
+    break}
+    i+f;
+    }
+    if (flag==0)
+    printf("%f is a prime no");
+    else printf("it is a prime no");
+    else 
+    printf("not a prime no");
+    
+
+    return 0;
+}
