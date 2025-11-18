@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int n,flag=0;
+    printf("enter the value ofinteger\n");
+    do{
+        (i<=n/2)
+    {if (n%i=0)
+    {flag=1;
+    break}
+    i+++
+    }
+    while (i<n/2)
+    
+    else printf("it is a prime no");
+    else 
+    printf("not a prime no");
+    
+
+    return 0;
+}
