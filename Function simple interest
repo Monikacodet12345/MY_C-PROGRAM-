@@ -1,0 +1,20 @@
+#include <stdio.h>
+int si_calculator(){
+    int p,t,r;
+    printf("enter your principle amount\n");
+    scanf("%d",&p);
+printf("enter your year time\n");
+    scanf("%d",&t);
+printf("enter your rate of interest\n");
+    scanf("%d",&r);
+    
+   
+    return (p*t*r)/100;
+    
+int main() 
+{
+  si_calculator();
+  return 0;
+} 
+
+   
