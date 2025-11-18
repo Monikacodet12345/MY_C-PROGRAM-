@@ -1,0 +1,11 @@
+#include <stdio.h>
+int addition(int a,int b){
+int c=a+b;
+printf("addition%d\n",c);
+}
+int main() 
+{
+addition (2,5);
+
+    
+}
