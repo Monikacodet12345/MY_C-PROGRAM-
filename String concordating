@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char gopal[10];
+    printf("enter your string");
+    scanf("%s",&gopal);
+    printf("%s\n",gopal);
+    strcat(gopal,"legend");
+
+printf("%s",gopal);
+    
+}
