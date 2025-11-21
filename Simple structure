@@ -1,0 +1,20 @@
+include <stdio.h>
+
+int main() {
+    struct monika{
+        int pen;
+        float gold;
+        char marks[10];
+        
+    };
+    struct monika m;
+    printf("enter the pen amount\n");
+    scanf("%d",&m.pen);
+    printf("enter the gold amount\n");
+    scanf("%g",&m.gold);
+printf("enter the marks\n");
+    scanf("%s",&m.marks);
+    printf("%d %f %s",m.pen,m.gold,m.marks);
+
+    return 0;
+}
