@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int choice,id;
+    printf("1.Pan number\n");
+    printf("2.Adaar number\n");
+    printf("3.Passport\n");
+    printf("Apaar id\n");
+    printf("5.Driving license\n");
+    printf("enter your choice");
+    scanf("%d",&choice);
+    switch(choice)
+  
+{
+    case 1:
+    printf("pan number verified!");
+    break;
+    case 2:
+    printf("Adaar number verified!");
+    break;
+    case 3:
+    printf("Passport verified!");
+    break;
+    case 4:
+    printf("Apaar verified!");
+    break;
+    case 5:
+    printf("Driving licence verified!");
+    break;
+    default:
+    printf("not verified");
+}
+    
+
+    return 0;
+}
