@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    struct monika{
+        int age;
+        float marks;
+         };
+         struct monika m[3];
+         for(int i=0;i<3;i++){
+         printf("enter age &marks\n");
+    scanf("%d %f",&m[i].age,m[i].marks);
+         }
+
+    return 0;
+}
