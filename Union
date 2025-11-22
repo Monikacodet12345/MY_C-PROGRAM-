@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    union monika {
+        int age;
+        float marks;
+         };
+         union monika m;
+         m.age=10;
+         printf("%d",m.age);
+        m.marks=10.7;
+        printf("%f",m.marks);
+         }
+   
